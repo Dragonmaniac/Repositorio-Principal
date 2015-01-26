@@ -17,7 +17,7 @@ alert('Mensaje enviado, muchas gracias.');
 } 
 else 
 {
-echo 'Falló el envio';
+echo 'Falló el envio?';
 }
 }
 ?>
