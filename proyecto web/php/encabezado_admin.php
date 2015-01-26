@@ -1,0 +1,1 @@
+<img src="../imagenes/logo_admin.png" width="250" height="100">

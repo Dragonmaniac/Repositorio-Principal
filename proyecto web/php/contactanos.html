@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>    
+<html>
+ <head>
+  <title>Formulario de contacto</title>
+ </head>
+ <body bgcolor="#FFFFFF">
+ <div class="miembro">
+ <table align="center">
+ <tr>
+ <td></td><td>Cedula del Miembro</td><td>Correo de Contacto</td>
+ </tr>
+ <tr>
+ <td></td><td>Cedula del Miembro</td><td>Correo de Contacto</td>
+ </tr>
+ <tr>
+ <td></td><td></td><td></td>
+ </tr>
+ <tr>
+ <td></td><td></td><td></td>
+ </tr>
+ <tr>
+ <td></td><td></td><td></td>
+ </tr>
+ <tr>
+ <td></td><td></td><td></td>
+ </tr>
+ </table>
+ </div>
+ <div class="divspoiler" align="center">
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:15px;">Deseas enviar un mensaje.</p><input style="width:100px; height:27px; line-height: 3px; background:#1F83AA; border:2px solid #f6f6f6; padding:15px; font-size:15px; color:#ffffff;" type="button" value="Mostrar" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; this.value = 'Ocultar'; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none'; this.value = 'Mostrar'; }" />
+</div><div><div class="spoiler" style="display: none;">
+
+<link type="text/css" rel="stylesheet" href="estilo.css">
+<section class="formulario">
+    <form action="contacto.php" method="post">
+<table>
+	<tr>
+		<td><label for="nombre">Nombre:</label></td> 
+        <td><input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required /></td>
+    </tr>
+    
+ 	<tr>
+    	<td><label for="email">Email:</label></td>
+<td> <input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required /></td>
+	</tr>
+	<tr> 
+    	<td><label for="mensaje">Mensaje:</label></td>
+ 		<td><textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea></td>
+    </tr>
+    
+    <tr>
+ 		<td><input id="submit" type="submit" name="submit" value="Enviar" /></td>
+   	</tr>
+</table>
+</form>
+  </section>
+
+</div></div>
+  
+ </body>
+</html>
+
