@@ -1,0 +1,45 @@
+===Base de datos redila
+
+== Estructura de tabla para la tabla proyecto_inversion
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**nro**//|int(5)|No|
+|codigo|varchar(30)|No|
+|nombre|varchar(100)|No|
+|dia|int(4)|No|
+|mes|varchar(10)|No|
+|anio|int(4)|No|
+|inspeccion|int(5)|No|
+|estatus|varchar(10)|No|
+|ubicacion|varchar(50)|No|
+|descripcion|varchar(100)|No|
+|empresa|varchar(50)|No|
+|rif|varchar(20)|No|
+|ingenieror|varchar(30)|No|
+|ingenierorr|varchar(30)|No|
+|avance|varchar(30)|No|
+== Volcado de datos para la tabla proyecto_inversion
+
+|1|p-12-23|acueducto rual comun|0| |0|2|terminado| | | | | | | 
+== Estructura de tabla para la tabla proyecto_inversion
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**nro**//|int(5)|No|
+|codigo|varchar(30)|No|
+|nombre|varchar(100)|No|
+|dia|int(4)|No|
+|mes|varchar(10)|No|
+|anio|int(4)|No|
+|inspeccion|int(5)|No|
+|estatus|varchar(10)|No|
+|ubicacion|varchar(50)|No|
+|descripcion|varchar(100)|No|
+|empresa|varchar(50)|No|
+|rif|varchar(20)|No|
+|ingenieror|varchar(30)|No|
+|ingenierorr|varchar(30)|No|
+|avance|varchar(30)|No|

@@ -8,7 +8,7 @@
 	<form>
 	<table>
 		<tr>
-			<th colspan="2"><a href="listar.php"><input name="menu" type="submit" value="Listado de Proyectos"/></a></th>
+			<th colspan="2"><a href="listar.php"><input name="listado" type="submit" value="Listado de Proyectos"/></a></th>
 		</tr>
 
 		<tr>

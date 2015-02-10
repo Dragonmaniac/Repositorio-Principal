@@ -1,0 +1,10 @@
+<p>Probar si funciona sin la funcion de javascript de arriba</p><input type="button" value="Imprimir Tabla" onclick="javascript:imprSelec('andres');function imprSelec(andres) 
+            {var ficha=document.getElementById(andres);var ventimp=window.open(' ','popimpr');ventimp.document.write(ficha.innerHTML);ventimp.document.close();ventimp.print();ventimp.close();};" />
+
+            <p> impresion Actual</p><input type="button" value="Imprimir Tablas" onclick="javascript:imprSelec('listado');function imprSelec(listado) 
+	{var ficha=document.getElementById(listado);var ventimp=window.open(' ','popimpr');ventimp.document.write(ficha.innerHTML);ventimp.document.close();ventimp.print();ventimp.close();};" />
+	<input type="button" name="imprimir" value="Imprimir" onclick="window.print();">
+	
+    <p>Imprimir Pagina</p><a href="javascript:window.print()"> Imprimir</a>
+	<p>Imprimir un documento </p><link rel="alternate" media="print" href="version-imprimir.doc" />
+	
