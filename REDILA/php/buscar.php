@@ -10,5 +10,6 @@
 			<input name="busca" type="text" id="busqueda"/>
 			<input type="submit" name="submit" value="Buscar"/>
 		</form>
+		//Prueba ya estoy dentro?
 </body>
 </html>
