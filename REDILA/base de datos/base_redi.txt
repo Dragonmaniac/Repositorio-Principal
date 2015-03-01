@@ -1,0 +1,96 @@
+-- ======================================================================
+-- ===   Sql Script for Database : redi
+-- ===
+-- === Build : 1
+-- ======================================================================
+
+CREATE TABLE proyecto_inversion
+  (
+    nro           int(5),
+    codigo        varchar(30),
+    nombre        varchar(100),
+    entrevistado  varchar(50),
+    telef         int(4),
+    telefono      int(7),
+    cargo         varchar(50),
+    ente          varchar(50),
+    anio          int(4),
+    descripcion   varchar(100),
+    inspeccion    int(5),
+    estatus       varchar(15),
+    municipio     varchar(50),
+    parroquia     varchar(50),
+    sector        varchar(50),
+    inversion     float(10),
+    empresa       varchar(50),
+    rif           varchar(30),
+    ingenieror    varchar(30),
+    civr          varchar(20),
+    ingenieroi    varchar(30),
+    civi          varchar(20),
+    avance        int(5),
+    diai          int(2),
+    mesi          varchar(10),
+    anioi         int(4),
+    valla         varchar(3),
+    diac          int(2),
+    mesc          varchar(10),
+    anioc         int(4),
+    beneficiados  varchar(20),
+
+    primary key(nro)
+  )
+ ENGINE = InnoDB;
+
+CREATE INDEX  ON proyecto_inversion(nro);
+
+-- ======================================================================
+
+CREATE TABLE plan_nac_agua
+  (
+
+  )
+ ENGINE = InnoDB;
+
+-- ======================================================================
+
+CREATE TABLE comp_gob_efic_calle
+  (
+
+  )
+ ENGINE = InnoDB;
+
+-- ======================================================================
+
+CREATE TABLE proy_espec_aten
+  (
+
+  )
+ ENGINE = InnoDB;
+
+-- ======================================================================
+
+CREATE TABLE proy_gober
+  (
+
+  )
+ ENGINE = InnoDB;
+
+-- ======================================================================
+
+CREATE TABLE proy_minist
+  (
+
+  )
+ ENGINE = InnoDB;
+
+-- ======================================================================
+
+CREATE TABLE proy_envergadura
+  (
+
+  )
+ ENGINE = InnoDB;
+
+-- ======================================================================
+

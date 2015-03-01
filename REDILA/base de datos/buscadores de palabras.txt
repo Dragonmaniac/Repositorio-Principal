@@ -1,0 +1,39 @@
+//Primero<script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+1. En primer lugar en la sección <head> debes apuntar a un archivo jquery actualizado.
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+
+(Lo ideal es tener el archivo grabado en tu hosting)
+
+2. Luego puedes agregar un estilo en tu archivo de CSS o en la misma página:
+
+<style>
+.resaltar{background-color:#FF0;}
+</style> 
+
+Este estilo define el fondo resaltado de tus búsquedas.
+
+3. Seguido pegas el javascritp:
+
+  <script type='text/javascript' >
+    $.expr[':'].icontains = function(obj, index, meta, stack){
+    return (obj.textContent || obj.innerText || jQuery(obj).text() || '').toLowerCase().indexOf(meta[3].toLowerCase()) >= 0;
+    };
+    $(document).ready(function(){   
+        $('#buscador').keyup(function(){
+                     buscar = $(this).val();
+                     $('#lista li').removeClass('resaltar');
+                            if(jQuery.trim(buscar) != ''){
+                               $("#lista li:icontains('" + buscar + "')").addClass('resaltar');
+                            }
+            });
+    });   
+ </script> 
+
+4. Agregas en tu lista UL el ID del JS.
+
+<ul id="lista"> 
+
+5.- Colocas la casilla de búsqueda donde la desees y subes la página.
+
+Buscar  » <input name="buscador" id="buscador" type="text" /> //

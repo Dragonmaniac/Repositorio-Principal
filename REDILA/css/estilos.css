@@ -1,0 +1,54 @@
+.titulo
+{ color:#000000; 	
+}
+
+table .titulo
+{   background: #009933;
+  height:1000px;
+  text-align:center;
+  font-weight:bold; 	
+}
+h1
+{
+	font-family:"Comic Sans MS", cursive;
+	color:#3E4DFF;
+}
+h3
+{
+	font-family:"Comic Sans MS", cursive;
+}
+.listados
+{
+	font-family:"Comic Sans MS", cursive;
+	text-align: center;
+}
+td
+{
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	font-size: 13px;
+	font-family:"Times New Roman", Times, serif;
+}
+input
+{
+	font-size: 11px;
+}
+ul
+{
+	text-align: left;
+}
+.registro
+{
+background:#e7e7e7; 
+box-shadow:0px 0px 10px black; 
+width:750px; 
+height:970px; 
+margin-right:auto; 
+margin-left:auto; 
+border-radius:10px; 
+}
+.titulo_ficha
+{
+	background-color:#C0504D;
+}
